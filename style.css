@@ -55,7 +55,7 @@ button {
     padding: 7px 13px;
     background: #550000;
     border: 1px solid #550000;
-    border-radius: 3px;
+    border-radius: 1px;
     color: white;
     font-weight: bold;
 }
@@ -106,7 +106,7 @@ button {
     padding: 8px 10px;
     margin-bottom: 2px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 1px;
     background: white;
     color: #222;
     text-align: left;
@@ -132,7 +132,7 @@ button {
     padding: 19px 21px;
     background: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .card + .card {
@@ -181,7 +181,7 @@ select {
     width: 100%;
     padding: 8px 10px;
     border: 1px solid #bbb;
-    border-radius: 3px;
+    border-radius: 1px;
     background: white;
 }
 
@@ -201,7 +201,7 @@ select:focus {
 .btn {
     padding: 8px 14px;
     border: 1px solid #550000;
-    border-radius: 3px;
+    border-radius: 1px;
     background: #550000;
     color: white;
     font-weight: bold;
@@ -257,7 +257,7 @@ td {
 .pill {
     display: inline-block;
     padding: 3px 8px;
-    border-radius: 3px;
+    border-radius: 1px;
     background: #eee;
     font-size: 11px;
     font-weight: bold;
@@ -380,7 +380,7 @@ td {
     align-items: center;
     justify-content: center;
     border: 1px solid #999;
-    border-radius: 50%;
+    border-radius: 40%;
     font-weight: bold;
 }
 
@@ -468,7 +468,7 @@ td {
     padding: 27px 24px;
     background: white;
     border: 1px solid #bbb;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .login-card h1 {
@@ -493,7 +493,7 @@ td {
     margin-top: 11px;
     padding: 10px;
     border: 1px solid #550000;
-    border-radius: 3px;
+    border-radius: 1px;
     background: #550000;
     color: white;
     font-weight: bold;
