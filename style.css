@@ -34,7 +34,7 @@ button {
 .brand {
     font-size: 21px;
     font-weight: 700;
-    color: #6B1F2B;
+    color: #550000;
     letter-spacing: -.2px;
 }
 
@@ -63,15 +63,15 @@ button {
     padding: 9px 14px;
     border: 1px solid #333;
     border-radius: 4px;
-    background: #6B1F2B;
+    background: #550000;
     color: #fff;
     font-weight: 600;
 }
 
 .logout {
     padding: 8px 13px;
-    background: #b42318;
-    border-color: #a51f15;
+    background: #550000;
+    border-color: #550000;
     border-radius: 3px;
 }
 
@@ -516,7 +516,7 @@ td {
     padding: 10px;
     border: 0;
     border-radius: 4px;
-    background: #6B1F2B;
+    background: #550000;
     color: #fff;
     font-weight: 700;
 }
