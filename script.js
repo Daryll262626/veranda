@@ -3265,7 +3265,7 @@ tick();
 
 
 function prototypeNotice() {
-    alert("UI Prototype only — this process is not functional yet.");
+    alert("");
 }
 
 function addReservation() {
