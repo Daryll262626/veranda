@@ -24,13 +24,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 11px 17px;
+    padding: 12px 18px;
     background: white;
     border-bottom: 1px solid #ccc;
 }
 
 .brand {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     color: #550000;
 }
@@ -38,37 +38,39 @@ button {
 .sub {
     font-size: 11px;
     color: #777;
+    margin-top: 2px;
 }
 
 .user {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 9px;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 13px;
     font-size: 12px;
     font-weight: bold;
 }
 
 .logout {
-    padding: 7px 12px;
+    padding: 7px 13px;
     background: #550000;
     border: 1px solid #550000;
-    border-radius: 2px;
+    border-radius: 3px;
     color: white;
     font-weight: bold;
 }
 
 #clock {
     text-align: right;
-    font-size: 11px;
-    color: #666;
+    font-size: 10px;
+    color: #777;
 }
 
 #clock strong {
     display: block;
     color: #222;
-    margin-top: 2px;
+    margin-top: 3px;
+    font-size: 11px;
 }
 
 #statstrip {
@@ -80,19 +82,19 @@ button {
 }
 
 #rail {
-    width: 215px;
+    width: 218px;
     min-height: calc(100vh - 70px);
-    padding: 15px 10px;
+    padding: 16px 11px;
     background: white;
     border-right: 1px solid #ccc;
 }
 
 .navgroup {
-    margin-bottom: 17px;
+    margin-bottom: 19px;
 }
 
 .navgroup h4 {
-    margin: 0 0 6px 7px;
+    margin: 0 0 7px 8px;
     color: #777;
     font-size: 10px;
     text-transform: uppercase;
@@ -101,10 +103,10 @@ button {
 .navitem {
     display: block;
     width: 100%;
-    padding: 7px 9px;
-    margin-bottom: 1px;
+    padding: 8px 10px;
+    margin-bottom: 2px;
     border: 0;
-    border-radius: 2px;
+    border-radius: 3px;
     background: white;
     color: #222;
     text-align: left;
@@ -113,6 +115,7 @@ button {
 .navitem.active {
     background: #550000;
     color: white;
+    padding: 9px 10px;
 }
 
 .navitem:hover {
@@ -121,30 +124,30 @@ button {
 
 #main {
     width: 100%;
-    max-width: 1050px;
-    padding: 20px 24px;
+    max-width: 1060px;
+    padding: 21px 25px;
 }
 
 .card {
-    padding: 18px 20px;
+    padding: 19px 21px;
     background: white;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .card + .card {
-    margin-top: 14px;
+    margin-top: 15px;
 }
 
 .head {
-    padding-bottom: 12px;
-    margin-bottom: 17px;
+    padding-bottom: 13px;
+    margin-bottom: 18px;
     border-bottom: 1px solid #ccc;
 }
 
 .head h1 {
-    margin: 0 0 4px;
-    font-size: 21px;
+    margin: 0 0 5px;
+    font-size: 22px;
 }
 
 .head p {
@@ -156,18 +159,18 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 13px;
+    gap: 11px;
+    margin-bottom: 14px;
 }
 
 .row > div {
     flex: 1;
-    min-width: 140px;
+    min-width: 145px;
 }
 
 label {
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     color: #444;
     font-size: 12px;
     font-weight: bold;
@@ -176,10 +179,18 @@ label {
 input,
 select {
     width: 100%;
-    padding: 8px 9px;
+    padding: 8px 10px;
     border: 1px solid #bbb;
-    border-radius: 2px;
+    border-radius: 3px;
     background: white;
+}
+
+.row input {
+    min-height: 35px;
+}
+
+.row select {
+    min-height: 34px;
 }
 
 input:focus,
@@ -188,26 +199,29 @@ select:focus {
 }
 
 .btn {
-    padding: 8px 13px;
+    padding: 8px 14px;
     border: 1px solid #550000;
-    border-radius: 2px;
+    border-radius: 3px;
     background: #550000;
     color: white;
     font-weight: bold;
 }
 
 .btn.secondary {
+    padding: 7px 12px;
     background: white;
     color: #333;
     border-color: #999;
 }
 
 .btn.danger {
+    padding: 8px 12px;
     background: #550000;
     border-color: #550000;
 }
 
 .btn.confirm {
+    padding: 9px 15px;
     background: #550000;
     border-color: #550000;
 }
@@ -219,13 +233,13 @@ select:focus {
 
 table {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 6px;
     border-collapse: collapse;
     font-size: 12px;
 }
 
 th {
-    padding: 7px;
+    padding: 8px 7px;
     background: #eee;
     border: 1px solid #ccc;
     color: #444;
@@ -235,15 +249,15 @@ th {
 }
 
 td {
-    padding: 8px 7px;
+    padding: 9px 7px;
     border: 1px solid #ddd;
     vertical-align: top;
 }
 
 .pill {
     display: inline-block;
-    padding: 3px 7px;
-    border-radius: 2px;
+    padding: 3px 8px;
+    border-radius: 3px;
     background: #eee;
     font-size: 11px;
     font-weight: bold;
@@ -265,27 +279,28 @@ td {
 }
 
 .flash {
-    padding: 8px 10px;
-    margin-bottom: 12px;
+    padding: 9px 11px;
+    margin-bottom: 13px;
     border: 1px solid #c9b0b0;
     background: #f8eeee;
     color: #550000;
 }
 
 .flash.err {
+    padding: 8px 10px;
     border-color: #d9aeb1;
     background: #fcebec;
     color: #842029;
 }
 
 .empty {
-    padding: 12px 0;
+    padding: 13px 0;
     color: #777;
     font-style: italic;
 }
 
 .hint {
-    margin-top: 8px;
+    margin-top: 9px;
     color: #777;
     font-size: 11px;
 }
@@ -293,14 +308,22 @@ td {
 .summary-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-bottom: 15px;
+    gap: 11px;
+    margin-bottom: 16px;
 }
 
 .stat {
-    padding: 11px 12px;
+    padding: 12px 13px;
     border: 1px solid #ccc;
     background: white;
+}
+
+.stat:nth-child(2) {
+    padding-top: 14px;
+}
+
+.stat:nth-child(3) {
+    padding: 10px 13px;
 }
 
 .stat .num {
@@ -311,15 +334,15 @@ td {
 
 .stat .lbl {
     display: block;
-    margin-top: 3px;
+    margin-top: 4px;
     color: #777;
     font-size: 10px;
     text-transform: uppercase;
 }
 
 .session {
-    padding: 9px 11px;
-    margin-bottom: 14px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     background: #f8f8f8;
 }
@@ -327,27 +350,32 @@ td {
 .actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 6px;
 }
 
 .small {
-    padding: 5px 8px;
+    padding: 5px 9px;
     font-size: 11px;
+}
+
+.actions .small:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 11px;
 }
 
 .ticket {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 9px 10px;
-    margin-bottom: 7px;
+    gap: 11px;
+    padding: 10px 9px;
+    margin-bottom: 8px;
     border: 1px solid #ccc;
     background: white;
 }
 
 .ticket .pos {
-    width: 27px;
-    height: 27px;
+    width: 28px;
+    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -367,9 +395,9 @@ td {
 }
 
 .receipt {
-    max-width: 320px;
-    margin: 15px auto 0;
-    padding: 16px;
+    max-width: 325px;
+    margin: 16px auto 0;
+    padding: 17px;
     border: 1px dashed #999;
     background: white;
     font: 12px "Courier New", monospace;
@@ -380,7 +408,7 @@ td {
 }
 
 .receipt-head .rname {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -392,17 +420,17 @@ td {
 .receipt hr {
     border: 0;
     border-top: 1px dashed #999;
-    margin: 9px 0;
+    margin: 10px 0;
 }
 
 .receipt-line {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 .receipt-foot {
-    margin-top: 10px;
+    margin-top: 11px;
     text-align: center;
     color: #777;
 }
@@ -410,8 +438,8 @@ td {
 .checkbox-line {
     display: flex;
     align-items: center;
-    gap: 7px;
-    margin: 4px 0 12px;
+    gap: 8px;
+    margin: 5px 0 13px;
 }
 
 .checkbox-line input {
@@ -435,44 +463,45 @@ td {
 }
 
 .login-card {
-    width: 390px;
+    width: 395px;
     max-width: 90%;
-    padding: 25px;
+    padding: 27px 24px;
     background: white;
     border: 1px solid #bbb;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .login-card h1 {
-    margin: 0 0 5px;
+    margin: 0 0 6px;
     color: #550000;
-    font-size: 26px;
+    font-size: 27px;
 }
 
 .login-card p {
-    margin: 0 0 17px;
+    margin: 0 0 18px;
     color: #777;
 }
 
 .login-card input,
 .login-card select {
-    margin: 6px 0;
+    margin: 7px 0;
+    padding: 9px;
 }
 
 .login-card button {
     width: 100%;
-    margin-top: 10px;
-    padding: 9px;
+    margin-top: 11px;
+    padding: 10px;
     border: 1px solid #550000;
-    border-radius: 2px;
+    border-radius: 3px;
     background: #550000;
     color: white;
     font-weight: bold;
 }
 
 .login-error {
-    min-height: 18px;
-    margin-top: 8px;
+    min-height: 19px;
+    margin-top: 9px;
     color: #b42318;
 }
 
@@ -501,7 +530,7 @@ input::placeholder {
 
     #main {
         max-width: none;
-        padding: 15px;
+        padding: 16px;
     }
 
     .summary-grid {
@@ -520,14 +549,18 @@ input::placeholder {
     }
 
     .card {
-        padding: 15px;
+        padding: 16px;
     }
 
     #topbar {
-        padding: 10px 13px;
+        padding: 10px 14px;
     }
 
     .user {
         margin-right: 0;
+    }
+
+    .brand {
+        font-size: 19px;
     }
 }
