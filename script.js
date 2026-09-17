@@ -2220,13 +2220,13 @@ function renderBillSummary() {
     `;
 }
 
-/* DISCOUNTS */
+
 
 function renderDiscounts() {
     const sub = computeSubtotal();
 
     const seniorTotal =
-        currentOrder.senior * 499;
+        currentOrder.senior * 295;
 
     const pwd =
         currentOrder.isPWD
@@ -2322,7 +2322,7 @@ function applyDiscount() {
     const sub = computeSubtotal();
 
     const seniorTotal =
-        currentOrder.senior * 499;
+        currentOrder.senior * 295;
 
     currentOrder.isPWD =
         document.getElementById(
@@ -2406,7 +2406,7 @@ function receiptHtml(t) {
 
                 <span>
                     ₱${(
-                        t.adultQty * 599
+                        t.adultQty * 369
                     ).toLocaleString()}
                 </span>
             </div>
@@ -2418,7 +2418,7 @@ function receiptHtml(t) {
 
                 <span>
                     ₱${(
-                        t.kidQty * 399
+                        t.kidQty * 269
                     ).toLocaleString()}
                 </span>
             </div>
@@ -2430,7 +2430,7 @@ function receiptHtml(t) {
 
                 <span>
                     ₱${(
-                        t.seniorQty * 499
+                        t.seniorQty * 295
                     ).toLocaleString()}
                 </span>
             </div>
