@@ -90,9 +90,7 @@ button {
 
 
 #statstrip {
-    display: flex;
-    background: #fff;
-    border-bottom: 1px solid #ddd;
+    display: none;
 }
 
 .stat-chip {
