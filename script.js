@@ -2576,7 +2576,7 @@ function renderPayment() {
     `;
 }
 
-
+/* PAYMENT PROCESSING */
 
 function processPayment() {
     if (!currentOrder.sourceId) {
@@ -3219,7 +3219,7 @@ function renderDailyReport() {
     `;
 }
 
-
+/* PAGE ROUTER */
 
 const RENDERERS = {
     reservations: renderReservations,
@@ -3262,64 +3262,3 @@ function render() {
 }
 
 tick();
-
-
-function prototypeNotice() {
-    alert("");
-}
-
-function addReservation() {
-    prototypeNotice();
-}
-
-function searchReservation() {
-    prototypeNotice();
-}
-
-function cancelReservation() {
-    prototypeNotice();
-}
-
-function cancelReservationById(id) {
-    prototypeNotice();
-}
-
-function doSort(type) {
-    prototypeNotice();
-}
-
-function assignTable() {
-    prototypeNotice();
-}
-
-function addWalkIn() {
-    prototypeNotice();
-}
-
-function serveNextWalkIn() {
-    prototypeNotice();
-}
-
-function checkInGuest(id) {
-    prototypeNotice();
-}
-
-function loadBillingSession() {
-    prototypeNotice();
-}
-
-function savePackages() {
-    prototypeNotice();
-}
-
-function applyDiscount() {
-    prototypeNotice();
-}
-
-function processPayment() {
-    prototypeNotice();
-}
-
-function printReceipt(id) {
-    prototypeNotice();
-}
